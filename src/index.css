@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.navbar-top {
+  box-shadow: rgba(240, 240, 241, 0.25) 0px 1px 1px, rgba(244, 244, 245, 0.13) 0px 0px 1px 1px;
+}
+
+.comp-name {
+  margin-left: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.navbar-nav a {
+  color: white;
+  font-weight: 200;
+  text-transform: capitalize;
+}
+
+.navbar-toggler {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: white !important;
+  background-color: white !important;
+  border-radius: 0 !important;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 900px;
+  /* opacity: 0.7; */
+  filter: brightness(40%);
+  object-fit: cover;
+}
+
+.slider-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  color: white;
+}
+
+.slider-text h3 {
+  font-size: 5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 3px;
+}
+
+.slider-text button {
+  border-radius: 0;
+  width: 40%;
+  margin-top: 1rem;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: white !important;
+}
+
+.cardy {
+  border-radius: 0;
+  border: 1px solid rgb(206, 202, 202) !important;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  padding: 3rem 0;
+}
+
+.cardy .card-header {
+  border-radius: 0;
+}
+
+.cardy h2 {
+  color: rgb(41, 40, 40);
+  ;
+}
+
+.cardy .card-body {
+  border-radius: 0;
+  color: rgb(83, 82, 82);
+}
+
+.about-us {
+  display: flex;
+  margin: 3rem auto;
+  padding: 0 5rem;
+}
+
+.about-us img {
+  width: 100%;
+}
+
+.about-text {background-color: #f5f5f5; padding: 1rem 0 1rem 0;
+}
+.about-text h2 {
+  color: rgb(41, 40, 40);
+  font-size: 2rem;
+  padding-left: 20px;
+}
+
+.about-text p {
+  color: rgb(83, 82, 82);
+  font-size: 15px;
+  line-height: 35px;
+  padding-left: 20px;
+}
+
+@media screen and (max-device-width:600px) {
+  .navbar-top {
+    background-color: black;
+  }
+
+  .navbar-nav a {
+    text-transform: capitalize;
+  }
+}
